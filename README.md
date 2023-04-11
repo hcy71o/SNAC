@@ -5,7 +5,7 @@ We built up our codes based on [VITS](https://github.com/jaywalnut310/vits)
 
 0. [VCTK]((https://paperswithcode.com/dataset/vctk)) dataset is used.
 1. [LibriTTS]((https://research.google/tools/datasets/libri-tts/)) dataset (train-clean-100 and train-clean-360) is also supported.
-2. This is the implementation of ```Baseline + REF + FLOW``` in the paper.
+2. This is the implementation of ```Proposed + REF + FLOW``` in the paper.
 
 |Text Encoder|Duration Predictor|Flow|Vocoder|
 |-----|-----|-----|-----|
