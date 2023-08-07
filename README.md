@@ -6,6 +6,8 @@ We built up our codes based on [VITS](https://github.com/jaywalnut310/vits)
 0. [VCTK]((https://paperswithcode.com/dataset/vctk)) dataset is used.
 1. [LibriTTS]((https://research.google/tools/datasets/libri-tts/)) dataset (train-clean-100 and train-clean-360) is also supported.
 2. This is the implementation of ```Proposed + REF + FLOW``` in the paper.
+3. Major applications are in ```modules.py```
+4. We followed the same flow setting with VITS, using volume-preserving transformation with the Jacobian determinant of one. 
 
 |Text Encoder|Duration Predictor|Flow|Vocoder|
 |-----|-----|-----|-----|
